@@ -1,0 +1,119 @@
+*,
+html{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100vh;
+}
+
+ .container-navbar {
+    background-color: #ffffff;
+    width: 100vw;   
+    height: auto;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    position: relative;
+    
+}
+
+.ul-navbar {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 20px; 
+    margin: 0px; 
+    list-style-type: none;
+}
+
+.li-navbar {
+    list-style-type: none;
+    padding: 20px;
+    margin: px;
+    color: black;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.li-navbar :hover {
+    background-color: rgb(2, 177, 2);
+    color: white;
+    border: 25px solid rgb(2, 177, 2);
+    transition: .2s ease-in-out;
+    transition-delay: .3s;
+    border-radius: 30px;
+}   
+
+.a-navbar {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.container-content {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    height: 75vh;
+    background-image: url("DSCF5558.jpg"); 
+    background-size: cover;
+    background-position: center; /* Menempatkan gambar latar belakang di tengah */
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+}
+
+.a-content {
+    font-size: 60px;
+    top: -20px;
+    position: relative;
+    font-weight: bold;
+    text-decoration: none;
+    width: 880px;
+    height: 115%;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-evenly  ;
+    align-items: center;
+    color: white;
+    text-shadow: -2px 0px red, 2px 0px blue;
+    
+    
+}
+    
+    
+.img-content {
+    background-color: white;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    background-color: transparent;
+    border-radius: 80px;
+    width: 65%;
+    height: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.container-footer {
+    background-color: green;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    position: fixed;
+    min-height: 80px;
+}
+
+.h1-footer {
+    font-size: 50px;
+    padding: 5px;
+    
+}
